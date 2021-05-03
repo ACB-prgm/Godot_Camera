@@ -3,6 +3,7 @@ extends Node2D
 
 func _on_Button_pressed():
 	Globals.camera.shake(25)
+	Transitioner._in()
 
 
 func _on_Button2_pressed():

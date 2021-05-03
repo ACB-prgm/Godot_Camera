@@ -8,16 +8,6 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "CanvasLayer",
-"class": "Transitioner",
-"language": "GDScript",
-"path": "res://ACB_Camera/Transitioner.gd"
-} ]
-_global_script_class_icons={
-"Transitioner": ""
-}
-
 [application]
 
 config/name="Camera"
@@ -27,6 +17,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Globals="*res://Globals.gd"
+Transitioner="*res://ACB_Camera/Transitioner.tscn"
 
 [rendering]
 
